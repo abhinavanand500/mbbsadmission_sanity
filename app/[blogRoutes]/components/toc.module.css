@@ -1,0 +1,23 @@
+.list {
+	list-style-type: none;
+	padding-inline-start: 0px;
+}
+
+.list img {
+	width: 20px;
+	height: 20px;
+	margin-right: 7px;
+	/* transform: rotate(180deg); */
+}
+
+.list > li {
+	padding: 7px 0px;
+	font-size: 16px;
+	font-weight: 500;
+	display: flex;
+  align-items: center;
+}
+
+.list > li a {
+	color: #000 !important;
+}
